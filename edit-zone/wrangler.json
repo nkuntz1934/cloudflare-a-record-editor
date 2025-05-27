@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edit-zone",
+  "main": "src/index.js",
+  "compatibility_date": "2025-01-24",
+  "triggers": {
+    "crons": ["*/2 * * * *"]  // Cron runs every 2 minutes
+  },
+  "vars": {
+    "ZONE_ID": "<your_zone_id>",
+    "CLOUDFLARE_EMAIL": "<your_email_for_cloudflare>",
+    "CLOUDFLARE_API_KEY": "<api_key_with_zone_edit_perms>",
+    "DOMAIN_NAME": "<domain_to_edit>"
+  }
+}
+
