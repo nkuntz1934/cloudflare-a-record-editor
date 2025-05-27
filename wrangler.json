@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "edit-zone",
-  "main": "src/index.js",
+  "main": "index.js",
   "compatibility_date": "2025-01-24",
   "triggers": {
     "crons": ["*/2 * * * *"]  // Cron runs every 2 minutes
